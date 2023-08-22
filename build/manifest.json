@@ -1,0 +1,24 @@
+{
+    "name": "webpage summary",
+    "description": "provide web page summary",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "action":{
+        "default_title":"webpage summary",
+        "default_popup":"index.html",
+        "default_icon":{
+            "16":"logo192.png",
+            "128":"logo192.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+      },
+    
+    "permissions": [
+          "activeTab"
+        ]
+       
+        
+      
+}
